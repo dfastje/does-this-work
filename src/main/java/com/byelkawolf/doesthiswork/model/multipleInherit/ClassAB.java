@@ -1,4 +1,4 @@
-package com.byelkawolf.doesthiswork.model.multipleInterfaces;
+package com.byelkawolf.doesthiswork.model.multipleInherit;
 
 public class ClassAB implements InterfaceA,InterfaceB {
 
