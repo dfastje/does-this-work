@@ -1,6 +1,6 @@
 package com.byelkawolf.doesthiswork.controllers;
 
-import com.byelkawolf.objecttojson.services.RestDemoService;
+import com.byelkawolf.doesthiswork.services.RestDemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

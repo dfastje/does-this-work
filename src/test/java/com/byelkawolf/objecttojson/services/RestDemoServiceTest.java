@@ -1,6 +1,6 @@
 package com.byelkawolf.objecttojson.services;
 
-import com.byelkawolf.objecttojson.model.SimpleString;
+import com.byelkawolf.doesthiswork.services.RestDemoService;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -16,16 +16,8 @@ public class RestDemoServiceTest {
     }
 
     @Test
-    public void simpleStringProcessorTest(){
-        String testString = "testString";
-        SimpleString simpleString = new SimpleString(testString);
+    public void Test(){
 
-        String outputString = restDemoService.simpleStringProcessor(
-                SimpleString.convertToJson(simpleString)
-        );
-
-        Assert.assertEquals(outputString,
-                SimpleString.convertToJson(simpleString));
     }
 
     @After
